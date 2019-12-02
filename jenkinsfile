@@ -1,0 +1,22 @@
+node('node2') {
+    stage('Checkout'){
+        sh 'echo "Checking Out"'
+        sh 'sleep 5'
+    }
+    stage('Complile'){
+         sh 'echo "Compiling Project"'
+        sh 'sleep 5'
+    }
+    stage('Testing'){
+         sh 'echo "Compiling Project"'
+        sh 'sleep 5'
+    }
+    stage('Integration Test'){
+         sh 'echo "Compiling Project"'
+        sh 'sleep 5'
+    }
+    stage('Deployment'){
+         sh 'echo "Compiling Project"'
+        sh 'sleep 5'
+    }
+}
